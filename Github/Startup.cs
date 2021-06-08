@@ -48,7 +48,7 @@ namespace Github
             app.UseAuthorization();
             app.Use(async (context, next) =>
             {
-                await context.Response.WriteAsync("Hello World");
+                await context.Response.WriteAsync("Hello First Change!");
             });
             app.UseEndpoints(endpoints =>
             {
